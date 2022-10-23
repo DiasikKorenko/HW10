@@ -6,7 +6,7 @@ public class Main {
         BelarusianHen belarusianHen = null;
         MoldovanHen moldovanHen = null;
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 107; i++) {
             if ((i + 1) % 3 == 0) {
                 russianHen = new RussianHen();
                 System.out.println(russianHen.getDescription());
